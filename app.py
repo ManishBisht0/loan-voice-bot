@@ -8,17 +8,13 @@ from questions import QUESTIONS, SUCCESS_MESSAGE, REJECTION_MESSAGE
 from services.whisper_service import transcribe_audio
 from services.eligibility import classify_answer
 from services.tts_service import generate_audio
-
 import os
-
 os.makedirs("uploads", exist_ok=True)
 os.makedirs("static/audio", exist_ok=True)
 
-# templates = Jinja2Templates(directory="templates")
 templates = Jinja2Templates(directory="templates")
 app = FastAPI()
 app.mount("/static", StaticFiles(directory="static"), name="static")
-
 
 sessions = {}
 
