@@ -398,6 +398,3 @@ Browser Plays Audio
 Manish Bisht
 
 Data Scientist
-
-
-pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu128
