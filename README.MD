@@ -60,8 +60,7 @@ loan_voice_bot/
 ## 1. Clone Project
 
 ```bash
-git clone <repo-url>
-cd loan_voice_bot
+git clone https://github.com/ManishBisht0/loan-voice-bot.git
 ```
 
 ---
